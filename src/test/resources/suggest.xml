@@ -1,0 +1,78 @@
+
+<suggest> 
+<type>eng</type> 
+<items> 
+     <item> 
+        <title>query</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query error</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>querystring</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query an object</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query sel</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query message</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query fever</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query window</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query control</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query language</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query by example</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query the database</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>queryingly</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query builder</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query helper</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>querying</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query designer</title> 
+        <result_num>0</result_num> 
+    </item> 
+     <item> 
+        <title>query optimizer</title> 
+        <result_num>0</result_num> 
+    </item> 
+ </items> 
+</suggest> 
