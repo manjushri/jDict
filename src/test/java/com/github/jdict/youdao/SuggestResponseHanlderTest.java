@@ -38,7 +38,8 @@ public class SuggestResponseHanlderTest {
 	
 	@Before
 	public void setUp() {
-		entity = new FileEntity(new File("E:\\programming\\myjavafile\\eclipse\\jDict\\src\\test\\resources\\suggest.xml"), "xml");
+		entity = new FileEntity(new File(getClass().getClassLoader().getResource("suggest.xml").getFile()), "xml");
+		// entity = new FileEntity(new File("suggest.xml"), "xml");
 		StatusLine line = new BasicStatusLine(HttpVersion.HTTP_1_1, 200, "OK");
 		httpResponse = new BasicHttpResponse(line);
 		httpResponse.setEntity(entity);
@@ -52,7 +53,7 @@ public class SuggestResponseHanlderTest {
 		
 		assertEquals(18, titles.size());
 		assertEquals("query", titles.get(0));
-		assertEquals("query optimize", titles.get(17));
+		assertEquals("query optimizer", titles.get(17));
 	}
 
 }

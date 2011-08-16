@@ -47,8 +47,9 @@ public abstract class AbstractDictionary extends Observable {
 	
 	public void instant(String queryWord) {
 		try {
-			suggestWords = suggest(queryWord);
-			description = simpleDescribe(queryWord);
+			suggestWords = this.suggest(queryWord);
+			this.setChanged();
+			description = this.simpleDescribe(queryWord);
 			this.setChanged();
 			this.notifyObservers();
 		} catch (ClientProtocolException cpe) {
